@@ -3,8 +3,35 @@
 <head>
    
     <title>position</title>
+    <style>
+        body{
+            margin: 0;
+            padding: 0;
+        }
+     .bottom-menus{
+        background-color: palevioletred;
+        height: 100px;
+        width: 750px; 
+        position: fixed;
+        bottom: 0;
+        display: flex;
+        justify-content: center;
+        padding: 5px;
+     }
+     .icon{
+        height: 50px;
+        padding: 5px 10px;
+        border-radius: 15px;
+     }
+    </style>
 </head>
 <body>
    <h1>Fixed Position</h1> 
+   <div class="bottom-menus">
+<img src="home.png" class="icon">
+<img src="phone.png" class="icon">
+<img src="mic.png" class="icon">
+<img src="setting.png" class="icon">
+   </div>
 </body>
 </html>
